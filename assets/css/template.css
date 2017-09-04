@@ -1,0 +1,153 @@
+@import "fonts.css";
+@import "comments.css";
+.landing-header{
+    background-color: #00bcd4;
+    color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+    height:400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.landing-header>.landing-content{
+    margin-right: -120px;
+}
+.landing-header>.landing-content>span{
+    color: #80deea;
+}
+.landing-header>.btn{
+    position: absolute;
+    left: 5vw;
+    bottom: -45px;
+    z-index: 2
+}
+
+body{
+    background-color: #f1f1f1
+}
+
+.lbl .material-icons{
+    font-size: 1.25em;
+    line-height: inherit;
+}
+
+.material-icons{
+    vertical-align: middle !important;
+}
+
+.main-text{
+    margin: 20px 0;
+}
+
+.post-header{
+    height: 400px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+    color: #fff;
+    position: relative;
+    background-position: 50% 50%;
+    background-size: cover
+}
+/*.post-header::after{*/
+    /*background-image: linear-gradient(to top, rgba(0,0,0,.5), transparent);*/
+    /*position: absolute;*/
+    /*z-index: -1;*/
+    /*top:0;*/
+    /*left:0;*/
+    /*bottom:0;*/
+    /*right:0;*/
+    /*content: ''*/
+/*}*/
+.post-header>.content{
+    padding: 30px;
+}
+.post-header>.content>.labels{
+    padding: 5px;
+}
+.image-post-center{
+    /*position: relative;*/
+    /*width: 75%;*/
+    /*right: 12.5%*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul.index_links{
+    padding: 0;
+    margin: 0;
+}
+.index_links li{
+    display: table-cell;
+    width: 0.01%
+}
+.index_links li a{
+    color: #333;
+    position: relative;
+    font-size: 1.125rem;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    transition: 700ms;
+    border-radius: 2.5px;
+    margin: 5px;
+}
+.index_links li a i.material-icons{
+    color: #00bcd4;
+    display: block;
+    font-size: 3em;
+    margin-bottom: .25em
+}
+.badge{
+    text-align: center;
+}
+.chip::after, .chip::before {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.search-form{
+    position: absolute;
+    right:0;
+    left:0;
+    height: 85px;
+    background-color: #333;
+    box-shadow: inherit;
+    width: 100%;
+    bottom: -85px;
+    overflow: hidden;
+    transition: .5s cubic-bezier(1,0,0,1);
+    pointer-events: none;
+    transform: scaleY(0);
+    transform-origin: 50% 0;
+    padding-top: 15px;
+}
+
+.search-form.is-open{
+    pointer-events: all;
+    transform: scaleY(1);
+}
+
+.search-form .input-area{
+    display: table-cell;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.search-form .submitter, .search-form .close-container{
+    width: 90px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.search-form *.btn{
+    margin: 0 3.5px !important
+}
+.chip .head {
+    width: 100%;
+}

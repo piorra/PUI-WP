@@ -1,0 +1,12 @@
+@charset "utf-8";
+/*
+Theme Name: PUI-WP
+Theme URI: https://pui.piorra.ir/wordpress
+Description: یک قالب واکنش گرا بر پایه ی متریال دیزاین
+Description2: A fully responsive web design framework, Based on material design.
+version: 1
+Author: پیورا
+Author URI: https://Piorra.ir
+*/
+@import "assets/css/pui.css";
+@import "assets/css/template.css";
