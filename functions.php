@@ -280,17 +280,22 @@ add_filter('admin_footer_text', 'remove_footer_admin');
 #Login Custom Logo
 //*************************************//
 
-function custom_login_logo() {
+function custom_login_logo_a() {
     echo '<style type="text/css">
         h1 a { background-image:url('.get_option('site_logo').') !important; }
     </style>';
+    echo '<script>
+            var atitle = document.getElementsByTagName("a")[0];
+            atitle.href = "'.get_bloginfo('url').'";
+            atitle.title = "'.get_bloginfo('name').'";
+</script>';
 }
+
+add_action('login_footer','custom_login_logo_a');
 
 //*************************************//
 #Admin Custom Logo
 //*************************************//
-
-add_action('login_head', 'custom_login_logo');
 
 function custom_admin_logo() {
     echo '<style type="text/css">
