@@ -10,13 +10,6 @@
         <?php endif; ?>
             <div class="content">
                 <h1><?the_title()?></h1>
-                <div class="labels">
-                    <label class="lbl green"><i class="material-icons">account_circle</i>نویسنده
-                        <? the_author() ?></label>
-                    <label class="lbl blue"><i class="material-icons">access_time</i>
-                        <? the_date('G:i j/n/Y') ?></label>
-<!--                        --><?//=  WPTime_get_post_time_ago() ?><!--</label>-->
-                </div>
             </div>
         </div>
         <div class="container">

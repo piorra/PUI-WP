@@ -8,7 +8,7 @@
             <div class="collapsible" id="main_collapse_menu">
                 <ul class="menu">
                     <? wp_nav_menu("title_li="); ?>
-                    <li><a class="icon-only" href="javascript:$_seacrhformOpen()" id="sf-handler"><i class="material-icons">search</i></a></li>
+<!--                    <li><a class="icon-only" href="javascript:$_seacrhformOpen()" id="sf-handler"><i class="material-icons">search</i></a></li>-->
                 </ul>
             </div>
         </div>
