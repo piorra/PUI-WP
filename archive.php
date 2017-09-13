@@ -48,6 +48,7 @@
             endwhile;
             // Previous/next page navigation.
         else :
+            ?>
             <h2>آرشیو ماهانه</h2>
                             <ul>
                                 <?php wp_get_archives('type=monthly'); ?>
@@ -65,6 +66,7 @@
                     <?php wp_list_categories(); ?>
                 </ul>
             </div>
+            <?php
         endif;
         ?>
 </div>

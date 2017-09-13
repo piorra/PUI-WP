@@ -4,7 +4,7 @@
 
     <div class="post-header" style="background-color: #607d8b;height: 250px">
         <div class="content">
-            <h1> مطالب دسته<?=single_tag_title( '', false )?></h1>
+            <h1> مطالب دسته <?=single_tag_title( '', false )?></h1>
         </div>
     </div>
     <div class="container">
